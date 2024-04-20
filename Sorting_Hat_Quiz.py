@@ -11,7 +11,8 @@ def greeting():
         print(f"Good Afternoon {name}")
     else:
         print(f"Good Evening {name}")
-
+#create a more magical welcoming , such as Welcome to Hogwarts, prepare to be sorted
+#time of the day is not essential (possibly remove that from the code)
 
 def main_quiz():
 
@@ -257,8 +258,8 @@ def main_quiz():
     print(f'Gryffindor - {(Gryffindor/10)*100}%')
     print(f'Hufflepuff - {(Hufflepuff/10)*100}%')
     print(f'Slytherin - {(Slytherin/10)*100}%')
-
+# percentages are not as definitive as one, will show percentage but their main percentage of house will be boldened and a possble rough draft of their emblem will appear with their answer. 
 
 greeting()
 main_quiz()
-
+# overall code is effective, remake small desgin choices, redo all questions and add a few more, etc.
