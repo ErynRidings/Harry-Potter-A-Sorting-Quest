@@ -6,11 +6,11 @@ def greeting():
     hour = int(datetime.datetime.now().hour)
 
     if hour>0 and hour<=12:
-        print(f'Good Morning {name}')
+        print(f'Good Morning {name}, Welcome to Hogwarts and to the start of a new adventure')
     elif hour>12 and hour<=17:
-        print(f"Good Afternoon {name}")
+        print(f"Good Afternoon {name}, Welcome to Hogwarts and to the start of a new adventure")
     else:
-        print(f"Good Evening {name}")
+        print(f"Good Evening {name}, Welcome to Hogwarts and to the start of a new adventure")
 #create a more magical welcoming , such as Welcome to Hogwarts, prepare to be sorted
 #time of the day is not essential (possibly remove that from the code)
 
