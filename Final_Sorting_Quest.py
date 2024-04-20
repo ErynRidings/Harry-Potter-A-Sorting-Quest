@@ -23,11 +23,11 @@ def main_quiz():
     Slytherin = 0
 
 
-    Question1 = ''' \nQ1-During the end-of-year exams, you notice that one of your classmates was using an enchanted quill. You come top of the class anyway, but they are second. What do you do?
-    1. Tell the professor immediately – cheating is wrong, no matter what.
-    2. Nothing, but if I hadn't come top of the class, I'd definitely tell the professor.
-    3. Encourage the other student to admit what they'd done to the professor.
-    4. Give them a high five for managing to sneak the quill into the exam.'''
+    Question1 = ''' \nQ1-You are on the search for the sorcerer's stone and face many challenges. Which challenge do you accept?
+    1. Playing in the life-size magical game of chess
+    2. Flying around with magical keys
+    3. Finding a way out of the strangling vines
+    4. Having a facedown with your own professor'''
     print(Question1)
 
     user_answer = int(input('\nEnter the option number of the option which you choose:- '))
@@ -47,11 +47,11 @@ def main_quiz():
     else:
         print('Please choose a valid option')
     
-    Question2 = '''\n Q2- You would be most hurt if a person called you...
-    1.Weak
-    2.Ignorant
-    3.Unkind
-    4.Boring'''
+    Question2 = '''\n Q2- You arrive in the chamber of secrets and face off against the Basislisk. How will you defeat this magical beast? 
+    1.With the sword of Gryffindor
+    2.Entraping it within the chamber 
+    3.With my trusty phoenix
+    4.Speaking to the creature, making it my own'''
     print(Question2)
     user_answer2 = int(input('\nEnter the option number of the option which you choose:- ')) 
 
@@ -70,11 +70,11 @@ def main_quiz():
     else:
         print("Please choose a valid option.....")
     
-    Question3 = '''\nQ3- You're locked in a duel with a skilled opponent. They fire an unknown spell at you, and you shout…
-    1.Expelliarmus!
-    2.Protego!
-    3.Stupefy!
-    4.Crucio!'''
+    Question3 = '''\nQ3- You are currently attending a magical beast class. There are four choices of beasts. What do you choose?
+    1.Hypogriff
+    2.Thestral
+    3.Dragon
+    4.Niffler
 
     print(Question3)
     user_answer3 = int(input("\nEnter the optin number of tje option which you choose:- "))
@@ -94,11 +94,11 @@ def main_quiz():
     else:
         print("Please choose a valid option...")
     
-    Question4 = '''\nQ4- It's your fifth year at Hogwarts, and you've just received a Howler from your parents. What for?
-    1.Sneaking into the Forbidden Forest at night on a dare.
-    2.Getting caught cheating in my Divination O.W.L.
-    3.Being put in detention after I was caught in the library after hours.
-    4.Nothing! I'd never do anything to warrant a Howler.'''
+    Question4 = '''\nQ4- You are thinking of enetering into the Triwizard tournement, what event do you believe you would win?
+    1.Finding the egg while facing fierce dragons
+    2.I would not compete because what's the point, I am the best
+    3.The intricate never-ending maze
+    4.Swimming in the lake to retrieve the one I lost'''
 
     print(Question4)
     user_answer4 = int(input('Enter the option number of the option which you choose:- '))
@@ -118,11 +118,11 @@ def main_quiz():
     else:
         print("Please choose a valid option")
     
-    Question5 ='''\nQ5- Which of these Dumbledore quotations speaks to you?
-    1."Pity the living, and above all, those who live without love."
-    2."Words are, in my not-so-humble opinion, our most inexhaustible source of magic."
-    3."It matters not what someone is born, but what they grow to be."
-    4."It does not do to dwell on dreams and forget to live."'''
+    Question5 ='''\nQ5- You are ion divintation class and peer into the crystal ball, what do you see?
+    1.My friends
+    2.Me as headmaster at Hogwarts
+    3.A mysterious prophecy 
+    4.Fortune in my vault at Gringotts'''
 
     print(Question5)
     user_answer5 = int(input('\nEnter the option number of the option which you choose:- '))
@@ -142,11 +142,11 @@ def main_quiz():
     else:
         print("Please choose a valid option")
     
-    Question6 = '''\nQ6- You're allowed a pet at Hogwarts: an owl, a cat, or a toad. Which do you bring?
-    1.Owl
-    2.Cat
-    3.Toad
-    4.Nothing. I can't be trusted to look after a pet!'''
+    Question6 = '''\nQ6- Its the beginning of your last year at Hogwarts, You have the option to take one class of your choosing. What do you choose?
+    1.Magical Beast class
+    2.Muggle Studies
+    3.Defense Against the Dark Arts
+    4.Potions class'''
 
     print(Question6)
     user_answer6 = int(input('Enter the option number of the option which you choose:- '))
@@ -160,11 +160,11 @@ def main_quiz():
     else:
         print('Please choose a valid option....')
     
-    Question7 = '''\nQ7- It's Saturday, you've finished your homework, and you have some free time. You decide to spend some time away from your common room. Where do you go?
-    1.The Forbidden Forest
-    2.The library
-    3.The kitchens
-    4.The Room of Requirement'''
+    Question7 = '''\nQ7- At the end of you journey, you finally acquire the three deathly hallows. You can only choose to keep one, which do you decide?
+    1.The Elder Wand
+    2.The Invisibilty Cloak
+    3.The Stone of Resurrection
+    4.I would let them all go, they are too powerful for this world'''
 
     print(Question7)
 
@@ -185,11 +185,11 @@ def main_quiz():
     else:
         print('Please choose a valid option....')
     
-    Question8 = '''\nQ8- What would you see in the Mirror of Erised?
-    1.Myself, surrounded by riches.
-    2.Myself, surrounded by my loving family and friends.
-    3.Myself, knowledgable above all.
-    4.Myself, experiencing a marvellous adventure.'''
+    Question8 = '''\nQ8- After graduating from Hogwarts, you look for a job. What job do you choose?
+    1.Ministry Official
+    2.Herbologist
+    3.Teacher
+    4.Professional quidditch player'''
 
     print(Question8)
     user_answer8 = int(input('Enter the option number of the option which you choose:- '))
@@ -205,26 +205,30 @@ def main_quiz():
     
     elif user_answer8==4:
         Gryffindor = Gryffindor + 1
+
+    else:
+        print('Please choose a valid option....')
     
-    Question9 = '''\nQ9- Choose a Deathly Hallow.
-    1.The Elder Wand
-    2.The Resurrection Stone
-    3.The Cloak of Invisibility'''
+    Question9 = '''\nQ9- You're on vacation in the Forbidden Forrest and come along a beast. What beast appears before you?
+    1.Acromantula
+    2.Unicorn
+    3.Demiguise
+    4.Centaur'''
 
     print(Question9)
     user_answer9 = int(input('Enter the option number of the option which you choose:- '))
 
-    if user_answer9==1:
+        if user_answer9==1:
         Slytherin = Slytherin + 1
     
     elif user_answer9==2:
-        Gryffindor = Gryffindor + 1
-        Ravenclaw = Ravenclaw + 1
+        Hufflepuff = Hufflepuff + 1
     
     elif user_answer9==3:
-        Gryffindor = Gryffindor + 1
         Ravenclaw = Ravenclaw + 1
-        Hufflepuff = Hufflepuff + 1
+    
+    elif user_answer9==4:
+        Gryffindor = Gryffindor + 1
     
     else:
         print('Please choose a valid option....')
