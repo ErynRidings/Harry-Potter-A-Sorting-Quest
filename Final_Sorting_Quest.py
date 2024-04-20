@@ -74,7 +74,7 @@ def main_quiz():
     1.Hypogriff
     2.Thestral
     3.Dragon
-    4.Niffler
+    4.Niffler'''
 
     print(Question3)
     user_answer3 = int(input("\nEnter the optin number of tje option which you choose:- "))
@@ -218,7 +218,7 @@ def main_quiz():
     print(Question9)
     user_answer9 = int(input('Enter the option number of the option which you choose:- '))
 
-        if user_answer9==1:
+    if user_answer9==1:
         Slytherin = Slytherin + 1
     
     elif user_answer9==2:
