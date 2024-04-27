@@ -7,7 +7,7 @@ To Do List:
 5) Add comments to base code and evaluate base code - accomplished
 6) change the greeting within the code - acomplished
 7) Remake all questions in code - accomplished
-8) Test code - 
-9) Fix any issues that arise in the code after testing - 
-10) Update code in Github -
-11) Create powerpoint -
+8) Test code - accomplished
+9) Fix any issues that arise in the code after testing - accomplished
+10) Update code in Github - accomplished
+11) Create powerpoint - 
