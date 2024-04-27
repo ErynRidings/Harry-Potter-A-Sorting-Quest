@@ -77,7 +77,7 @@ def main_quiz():
     4.Niffler'''
 
     print(Question3)
-    user_answer3 = int(input("\nEnter the optin number of tje option which you choose:- "))
+    user_answer3 = int(input("\nEnter the optin number of the option which you choose:- "))
 
     if user_answer3==1:
         Gryffindor = Gryffindor +1
